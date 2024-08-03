@@ -1,0 +1,110 @@
+body{
+   background-color: powderblue;
+   text-align: center;
+    
+}
+h1{  
+    display: -moz-box;
+    margin-top: auto;
+    display: inline-block;
+    
+    border:2px;
+    border-style: double;
+    width: fit-content;
+    border-color: rgb(28, 12, 105);
+    
+}
+h2{  
+     display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px;
+    border-style: double;
+    width: fit-content;
+    border-color: rgb(28, 12, 105);
+   
+    
+}
+a:visited{
+    
+    color: rgb(145, 18, 121);
+    background-color: transparent;
+}
+a:hover {
+    color:rgb(240, 229, 9);
+    background-color:black;
+    text-decoration:underline;
+}
+table ,th,td{
+     border: 1px solid rgb(5, 20, 94);
+     border-collapse: collapse;
+     background-color: rgb(231, 203, 223);
+     width: 50%;
+     height: 100%;
+     border-style:dotted;
+   margin-left: auto;
+   margin-right: auto;
+   text-decoration: wavy;
+   border-style: ridge;
+     
+}
+.ribbon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+}
+
+.ribbon-button {
+    color: rgb(31, 9, 158);
+    background-color: white;
+    border: 1px solid rgb(228, 232, 19);
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.ribbon-button:hover {
+    background-color: rgb(20, 146, 9);
+    color: rgb(214, 14, 174);
+    text-decoration: underline;
+}
+.footer-container{
+    background-color:bisque;
+    align-items: center;
+    text-align: center;
+    border-style: dashed;
+   border-color: rgb(218, 13, 177);
+   border-width: 3px;
+
+}
+.socialicon{
+    display: flex;
+    background-color:pink;
+    justify-content: center;
+    padding: 10px;
+ text-decoration: none;
+ margin: 10px;
+
+
+ border-radius: 30px;
+ 
+}
+.socialicon button{
+    margin: 30px;
+    background-color: pink;
+    border-color: rgb(248, 12, 173);
+}
+.socialicon :hover{
+    background-color: blueviolet;
+    
+}
+
+
+
